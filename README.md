@@ -11,23 +11,20 @@ Note: Not unexpectedly, research has just proven that this idea is not unique an
  - What I'm doing has been done, to a degree, here: https://github.com/bzzrckt/lorem.css
  - Also, I learned that Emmet can add placeholder text. See http://docs.emmet.io/abbreviations/lorem-ipsum/ for details. This is convenient, but I still think a JS approach would make it easier to later get rid of the placeholder text. Rather than highlighting and deleting the Emmet generated text, you can do a find/replace to more easily remove all the JS-lorem classes.
  
- # Usage
+# Usage
  1. Download and include lorem.js in your HTML.
  2. Anytime you want placeholder text, add a JS-Lorem class to any HTML element, as shown here:
  	
-	Class Name		Result
-	lorem1w			1 word of lorem
-	lorem2w			2 words of lorem
-	lorem1s			1 sentence of lorem
-	lorem1p			1 paragraph of lorem
-	lorem55p		55 paragraphs of lorem
+class="lorem1w" ---> 1 word of lorem
+class="lorem2w" ---> 2 words of lorem
+class="lorem1s" ---> 1 sentence of lorem
+class="lorem1p" ---> 1 paragraph of lorem
+class="lorem55p" ---> 55 paragraphs of lorem
 	
-	In other words, say how many pieces you want and what type.
-	w = word
-	s = sentence
-	p = paragraph
-	
-
+In other words, say how many pieces you want and what type.
+w = word
+s = sentence
+p = paragraph
 
  
  
