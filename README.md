@@ -16,14 +16,22 @@ Note: Not unexpectedly, research has just proven that this idea is not unique an
  2. Anytime you want placeholder text, add a JS-Lorem class to any HTML element, as shown here:
  	
 class="lorem1w" ---> 1 word of lorem
+
 class="lorem2w" ---> 2 words of lorem
+
 class="lorem1s" ---> 1 sentence of lorem
+
 class="lorem1p" ---> 1 paragraph of lorem
+
 class="lorem55p" ---> 55 paragraphs of lorem
+
 	
 In other words, say how many pieces you want and what type.
+
 w = word
+
 s = sentence
+
 p = paragraph
 
  
