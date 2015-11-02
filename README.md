@@ -1,6 +1,6 @@
 # JS-Lorem
 Quick Description:
-Auto-fill placeholder text simply by adding a CSS class. No more trips to lorem ipsum generator sites!
+Auto-fill placeholder text simply by adding an HTML class. No more trips to lorem ipsum generator sites!
 
 More Details:
 There are plenty of lorem ipsum generators online, but I find it time-consuming to visit a site, punch in my preferences, generate the text, and then copy and paste it into my site.
@@ -12,8 +12,8 @@ Note: Not unexpectedly, research has just proven that this idea is not unique an
  - Also, I learned that Emmet can add placeholder text. See http://docs.emmet.io/abbreviations/lorem-ipsum/ for details. This is convenient, but I still think a JS approach would make it easier to later get rid of the placeholder text. Rather than highlighting and deleting the Emmet generated text, you can do a find/replace to more easily remove all the JS-lorem classes.
  
 # Usage
- 1. Download and include lorem.js in your HTML.
- 2. Anytime you want placeholder text, add a JS-Lorem class to any HTML element, as shown here:
+1. Download and include lorem.js in your HTML.
+2. Anytime you want placeholder text, add a JS-Lorem class to any HTML element, as shown here:
  	
 class="lorem1w" ---> 1 word of lorem
 
@@ -37,5 +37,7 @@ p = paragraph
  
  
  Change Log:
+ 
  2015/11/2 - 17:30 - I originally intended to do this project using CSS instead of JS but decided to go the JS route in order to allow for the lorem test to be randomly generated.
+ 
  2015/10/22 - 16:45 - First commit. Includes readme and a very early, simple proof of concept, not that something this simple really needs a proof of concept. ;)
